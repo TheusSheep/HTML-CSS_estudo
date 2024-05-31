@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação</title>
+    <style>
+        h1{
+            text-align: center;
+            font: normal bolder 4em sans-serif;
+            text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.349);
+        }
+
+        p{
+            text-align: center;
+            font: normal normal 1em sans-serif;
+        }
+
+        .list{
+            display: flex;
+            justify-content: center;
+        }
+
+        ol{
+            padding-right: 40px;
+        }
+
+        iframe{
+            display: block;
+            margin: auto;
+            width: 90%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegação em iframe</h1>
+    <p>é assim que se faz uma navegação em iframe</p>
+    <p>escolha uma das paginas:</p>
+    <div class="list">
+        <ol>
+            <li>
+                <a href="pág_extra/pag1.html" target="pags">Pág 1</a>
+            </li>
+            <li>
+                <a href="pág_extra/pag2.html" target="pags">Pág 2</a>
+            </li>
+            <li>
+                <a href="pág_extra/pag3.html" target="pags">Pág 3</a>
+            </li>
+        </ol>
+    </div>
+    <iframe name="pags">não foi possível abrir por causa de um erro</iframe>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit ut voluptatum magnam mollitia inventore, dolorum a. Quisquam quae officia veritatis, officiis vero perferendis omnis, sapiente nulla ducimus quia nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem molestias iste velit aliquam. Illo nisi molestias quasi iusto. Odio consectetur, nobis repudiandae pariatur error doloremque molestias alias. Quibusdam, pariatur. (Só pra exer linguiça)</p>
+</body>
+</html>

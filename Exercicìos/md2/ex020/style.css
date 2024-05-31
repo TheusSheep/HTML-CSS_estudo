@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: #AEFFE4;
+}
+
+h1{
+    color: #2B4039;
+    font-family: serif;
+    text-align: left;
+}
+
+#titulo-principal{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+}
+
+h2{
+    color: #578072;
+    text-align: left;
+    font-family: serif;
+}
+
+div{
+    color: #578072;
+    text-align: center;
+    font-family: serif;
+    font-size: 2em;
+}
+
+p{
+    color: #82BFAB;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+div > p{
+    display: none;
+    text-align: center;
+}
+
+div:hover > p{
+    display: block;
+    color: #679988;
+}

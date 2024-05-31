@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:Wish;
+    src: url(font/WishShore.ttf) format(truetype) url(font/WishShore.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    text-align: center;
+}
+
+h1{
+    font: italic 800 3em 'Whish', serif;
+}
+
+h2{
+    text-align: left;
+    font: normal 600 2em 'Whish', serif;
+}
+
+main{
+    font: normal 1em 'Noto Sans', sans-serif;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+p{
+    font: normal 1em 'Noto Sans', sans-serif;
+}

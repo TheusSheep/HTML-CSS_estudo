@@ -1,0 +1,1 @@
+Não existe ainda você não sabe JavaScript

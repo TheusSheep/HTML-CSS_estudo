@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <form action="cadastro.js" method="post">
+            <p>
+                <label for="cor">Color:</label>
+                <input type="color" name="cor" id="cor" value="#8400f0">
+            </p>
+            <p>
+                <label for="ava">Sua Avaliação:</label>
+                <input type="range" name="ava" id="ava" min="1" max="5" value="3">
+            </p>
+            <p>
+                <label for="fot">Selecione uma foto:</label>
+                <input type="file" name="fot" id="fot">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -2,3 +2,47 @@
 
 /* Versão Midias */
 
+
+/* Impressora */
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        border: 3.5px solid black;
+    }
+
+    #img_phone{ display: none; }
+    #img_impressora{ display: block; }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../image/back-tablet.jpg);
+    }
+
+    #img_phone{ display: none; }
+    #img_tablet{ display: block; }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../image/back-pc.jpg);
+    }
+
+    #img_phone{ display: none; }
+    #img_pc{ display: block; }   
+}
+
+/* Extra Screen */
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../image/back-tv.jpg);
+    }
+
+    #img_phone{ display: none; }
+    #img_tv{ display: block; }    
+}

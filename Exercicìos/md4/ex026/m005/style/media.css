@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    #burguer{
+        display: none;
+    }
+
+    #itens{
+        display: block;
+        background-color: black;
+    }
+
+    menu li{
+        display: inline-block;
+    }
+
+    menu a{
+        color: white;
+        background: none;
+        border: none;
+        border-top-right-radius: 6.5px;
+        border-bottom-left-radius: 6.5px;
+        font: normal bold 1em Arial, Helvetica, sans-serif;
+        margin: 5.5px 0px 5.5px 25px;
+    }
+
+    menu a:hover{
+        background-color: grey;
+        color: black;
+    }
+
+    main{
+        width: 650px;
+    }
+}

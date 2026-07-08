@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+h1{
+    font-size: 3.5em;
+    color: rgb(83, 83, 230);
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.123);
+    margin: 25px;
+}
+
+h2{
+    font-size: 2.5em;
+    color: rgb(122, 122, 228);
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.123);
+    margin: 25px;
+}
+
+.conteiner{
+    display: flex;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#um{
+    flex-flow: row wrap;
+}
+
+#dois{
+    flex-flow: row-reverse wrap;
+}
+
+#tres{
+    flex-flow: row wrap-reverse;
+}
+
+#quatro{
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.itens{
+    background-color: aqua;
+    border: 2.5px solid rgb(122, 122, 228);
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px;
+    color: rgb(122, 122, 228);
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.123);
+}

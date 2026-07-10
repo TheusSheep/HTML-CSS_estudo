@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --cor1: #FFD074;
+    --cor2: #4A241D;
+    --cor3: #4D0F00;
+    --cor4: #1A0505;
+    --cor5: #1C1815;
+
+    --font-title: "Geomini", sans-serif;
+    --font-text: "Lato", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, var(--cor3), var(--cor5));
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+section{
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 0px 15px;
+}
+
+h1{
+    background-color: var(--cor1);
+    font: bolder italic 5em var(--font-title);
+    text-shadow: 2.5px 2px 2px rgba(0, 0, 0, 0.089);
+    text-align: center;
+    color: var(--cor4);
+    padding: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 100px;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+form label, i{
+    color: var(--cor3);
+    font: bold normal 1.2em var(--font-text);
+    margin-right: 8px;
+}
+
+form label{
+    width: 56px;
+}
+
+form input{
+    border: 2.5px solid var(--cor2);
+    border-radius: 5px;
+}
+
+input[type="email"]::placeholder{
+    text-align: center;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: var(--cor1);
+    width: 150px;
+    height: 35px;
+    border: 3.2px solid var(--cor2);
+    border-radius: 35px;
+    margin: 25px 10px;
+}
+
+button p, i{
+    color: var(--cor3);
+    font: bold normal 1.1em var(--font-text);
+    text-align: center;
+}
+
+button p > i{
+    margin-left: 10px;
+}

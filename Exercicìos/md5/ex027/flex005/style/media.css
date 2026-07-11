@@ -1,0 +1,44 @@
+@media screen and (max-width:748px){
+
+    body{
+        background: var(--cor5) url(../image/login-image.jpg) top left no-repeat;
+    }
+
+    img{
+        display: none;
+        border: 0px;
+    }
+
+    section{
+        background-color: #4a241d9c;
+        width: 85vw;
+        border-radius: 0px 15px 0px 15px;
+        border: 5px solid var(--cor1);
+    }
+
+    h1{
+        background-color: var(--cor1);
+        color: var(--cor3);
+    }
+
+    form label, i{
+        color: var(--cor1);
+    }
+
+    form input{
+        border-color: var(--cor3);
+    }
+
+    button{
+        background-color: var(--cor1);
+        border-color: var(--cor1);
+    }
+    
+    #botoes p{
+        color: var(--cor5);
+    }
+
+    #botoes p > i{
+        color: var(--cor5);
+    }
+}

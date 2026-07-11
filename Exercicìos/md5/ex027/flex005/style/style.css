@@ -21,10 +21,10 @@
     font: normal normal 1em Arial, Helvetica, sans-serif;
 }
 
-body{
+html, body{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(90deg, var(--cor3), var(--cor5));
+    background-color: var(--cor4);
 }
 
 main{
@@ -37,10 +37,17 @@ main{
 }
 
 section{
-    width: 85vw;
+    background-color: var(--cor1);
+    max-width: 600px;
     height: 85vh;
-    background-color: white;
-    border-radius: 0px 15px;
+    border-top-right-radius: 10px;
+}
+
+img{
+    display: block;
+    max-width: 400px;
+    height: 85vh;
+    border-bottom-left-radius: 10px;
 }
 
 h1{
@@ -48,9 +55,8 @@ h1{
     font: bolder italic 5em var(--font-title);
     text-shadow: 2.5px 2px 2px rgba(0, 0, 0, 0.089);
     text-align: center;
-    color: var(--cor4);
+    color: var(--cor3);
     padding: 15px;
-    border-top-right-radius: 15px;
     margin-bottom: 100px;
 }
 
@@ -64,6 +70,7 @@ form{
 
 form label, i{
     color: var(--cor3);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
     font: bold normal 1.2em var(--font-text);
     margin-right: 8px;
 }
@@ -73,12 +80,9 @@ form label{
 }
 
 form input{
-    border: 2.5px solid var(--cor2);
+    background-color: rgba(255, 255, 255, 0.144);
+    border: 2.5px solid var(--cor3);
     border-radius: 5px;
-}
-
-input[type="email"]::placeholder{
-    text-align: center;
 }
 
 #botoes{
@@ -87,20 +91,22 @@ input[type="email"]::placeholder{
 }
 
 button{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     width: 150px;
     height: 35px;
-    border: 3.2px solid var(--cor2);
+    border: 3.5px solid var(--cor2);
     border-radius: 35px;
     margin: 25px 10px;
 }
 
-button p, i{
-    color: var(--cor3);
+#botoes p{
+    color: white;
     font: bold normal 1.1em var(--font-text);
     text-align: center;
 }
 
-button p > i{
+#botoes p > i{
+    color: white;
     margin-left: 10px;
+    text-shadow: none;
 }

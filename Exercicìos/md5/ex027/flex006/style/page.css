@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    background-color: aliceblue;
+    height: 400px;
+}
+
+.itens{
+    background-color: aqua;
+    border: 2.5px solid rgb(122, 122, 228);
+    width: 150px;
+    text-align: center;
+    color: rgb(122, 122, 228);
+}

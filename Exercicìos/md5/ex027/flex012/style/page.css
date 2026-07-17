@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: aliceblue;
+}
+
+.itens{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    border: 2.5px solid rgb(122, 122, 228);
+
+    color: rgb(122, 122, 228);
+    text-align: center;
+}
+
+#cxa{
+    flex: 1 0 150px;
+}
+
+#cxb{
+    flex: 3 1 150px;
+}
+
+#cxc{
+    flex: 0 2 150px;
+}

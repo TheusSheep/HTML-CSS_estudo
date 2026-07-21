@@ -1,0 +1,42 @@
+@media screen and (max-width: 734px){
+    
+    header > h1, div{
+        margin: 15px 20px;
+    }
+
+    header > div{
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (max-width: 635px){
+    
+    header{
+        padding: 0px;
+    }
+
+    header > h1, div{
+        margin: 15px 20px;
+    }
+
+    header h1{
+        font-size: 3rem;
+    }
+
+    #burguer{
+        margin: 15px 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menux{
+        display: none;
+    }
+
+    #option{
+        display: none;
+    }
+
+}

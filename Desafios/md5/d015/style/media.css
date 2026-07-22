@@ -5,7 +5,7 @@
     }
 
     header > div{
-        margin-bottom: 35px;
+        margin: 35px 20px;
     }
 
 }
@@ -25,10 +25,8 @@
     }
 
     #burguer{
-        margin: 15px 35px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        margin: 15px 35px
     }
 
     #menux{
@@ -37,6 +35,22 @@
 
     #option{
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 495px){
+
+    header{
+        flex-flow: column nowrap;
+    }
+
+    #option{
+        flex-flow: column nowrap;
+    }
+
+    #option button{
+        margin: 25px 0px;
     }
 
 }
